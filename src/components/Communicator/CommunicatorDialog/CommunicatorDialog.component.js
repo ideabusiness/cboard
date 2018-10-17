@@ -86,7 +86,7 @@ const CommunicatorDialog = ({
           {!loading && (
             <React.Fragment>
               {selectedTab === TAB_INDEXES.COMMUNICATOR_BOARDS && (
-                <div className="CommunicatorDialog__communicatorData">
+                <div className="CommunicatorDialog__communicatorData CommunicatorDialog__communicatorData__container">
                   <React.Fragment>
                     <div className="CommunicatorDialog__communicatorData__title">
                       {communicator.name}
